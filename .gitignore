@@ -1,0 +1,32 @@
+# Binaries
+*/*-service
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Data directories
+data/
+monitoring/data/
+*.db
+*.wal
+
+# Prometheus
+prometheus-*/
+*.tar.gz
+
+# Go
+go.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
